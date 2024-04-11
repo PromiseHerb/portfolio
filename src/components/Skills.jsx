@@ -8,7 +8,7 @@ export default function Skills() {
         <section id="skills">
           <div className="container px-5 py-10 mx-auto">
             <div className="text-center mb-20">
-              < img src="../public/skills.jpg" alt="skills en police ballons métalisés"></img>
+              < img src="../public/skills.jpg" style={{ width: '50%', height: '50%' }} alt="skills en police ballons métalisés"></img>
               
             </div>
             <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">

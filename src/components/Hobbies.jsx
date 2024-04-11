@@ -6,10 +6,10 @@ export default function Hobbies() {
     return (
         <section id="Hobbies">
           <div className="container px-5 py-10 mx-auto text-center">
-        
-            <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-12">
+          <img src="../hobbies.png" style={{ width: '50%', height: '50%' }}></img>
+            {/* <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-12">
               Hobbies
-            </h1>
+            </h1> */}
             {<div className="flex flex-wrap m-4">
   {hobbies.map((hobbies, index) => (
     <div key={hobbies.id || index} className="p-4 md:w-1/2 w-full">

@@ -13,10 +13,10 @@ export default function Navbar() {
       <a href="#" className="nav.brand"> Promise </a>
       <ul className="nav_menu">  
       <li className="nav__itm"><a href="about" className="nav__link">About</a></li>
-      <li className="nav__itm"><a href="projects" className="nav__link">Past Work</a></li>
-      <li className="nav__itm"><a href="skills" className="nav__link">Skills</a></li>
-      <li className="nav__itm"><a href="Hobbies" className="nav__link">Hobbies</a></li>
-      <li className="nav__itm"><a href="contact" className="nav__link">Hire Me</a></li>
+      <li className="nav__itm"><a href="#projects" className="nav__link">Past Work</a></li>
+      <li className="nav__itm"><a href="#skills" className="nav__link">Skills</a></li>
+      <li className="nav__itm"><a href="#Hobbies" className="nav__link">Hobbies</a></li>
+      <li className="nav__itm"><a href="#contact" className="nav__link">Hire Me</a></li>
       </ul>
 
       <div className="nav_toggler">
