@@ -1,4 +1,5 @@
-*,*::after, *::before{
+/* nav bar v1 */
+/* *,*::after, *::before{
     margin : 0;
     box-sizing: border-box;
 }
@@ -26,13 +27,13 @@ a {
     justify-content: space-around;
     height: 8vh;
     background: #ec05e884;
-}
+} */
 
 /* .nav_brand{
 
 } */
 
-.nav_menu{
+/* .nav_menu{
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -44,5 +45,18 @@ a {
     height: 0,2rem;
     margin:0.4rem;
     background: darkgray;
-}
+} */
 
+/* .nav_figma{
+   
+    margin-top: 6.4%;
+    justify-content: center;
+    width: 843px;
+    height: 121px;
+    flex-shrink: 0;
+    fill: radial-gradient(64.1% 50% at 50% 50%, #0000BA 0%, #BA86FF 30.5%, #0000BA 54%, #BA86FF 76%, #0000BA 100%);
+
+    stroke-width: 1px;
+    stroke: rgba(0, 0, 186, 0.70);
+    filter: drop-shadow(0px 4px 4px #FFF798);
+} */

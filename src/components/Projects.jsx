@@ -1,6 +1,6 @@
-import { CodeIcon } from "@heroicons/react/solid";
 import React from "react";
 import { projects } from "../data";
+
 
 export default function Projects() {
 
@@ -10,7 +10,7 @@ export default function Projects() {
             <div className="flex flex-col w-full mb-20">
               
               <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
-              <CodeIcon className="ml-1" style={{ width: '0.75rem', height: '0.75rem' }}/> Apps I've Built
+               Apps I've Built
               </h1>
               <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
@@ -18,7 +18,7 @@ export default function Projects() {
                 fuga dolore.
               </p>
             </div>
-            <div className="flex flex-wrap -m-4">
+            <div className="container">
               {projects.map((project) => (
                 <a
                   href={project.link}
@@ -30,7 +30,7 @@ export default function Projects() {
                       </h1>
                     <img
                       alt="gallery"
-                      className="absolute inset-0 w-full h-full object-cover object-center"
+                      className="image-contain"
                       src={project.image}
                     />
                     <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
